@@ -8,7 +8,8 @@ def displayInventory(inventory):
     item_total = 0
     for k, v in inventory.items():
         print(v, k)
-        item_total = item_total + v
+        item_total += v
+        #item_total = item_total + v        
     print('Total number of items: ' + str(item_total)) 
 
 def addToInventory(inventory, addedItems):
@@ -16,7 +17,8 @@ def addToInventory(inventory, addedItems):
         if addedItems[x] not in inventory.keys():
             inventory[addedItems[x]] =  1
         elif addedItems[x] in inventory.keys():
-            inventory[addedItems[x]] =  ((inventory[addedItems[x]]) + 1)
+            inventory[addedItems[x]] +=  1
+            #inventory[addedItems[x]] =  ((inventory[addedItems[x]]) + 1)      
 
 #stuff = addToInventory(stuff, dragonLoot)  #messes it up.
 
