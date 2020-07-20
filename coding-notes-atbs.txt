@@ -28,7 +28,7 @@ https://repl.it/
 
 ===================
 
-https://confluence.corp.etradegrp.com/display/COMMUNITY/Hackathon+Workshops
+https://confluence.***/display/COMMUNITY/Hackathon+Workshops
 
 Derived from hourofcode.org
 
